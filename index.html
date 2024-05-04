@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Super Mario Bros. Encanadores</title>
+</head>
+
+<body>
+    <div onclick="ocultarForm()" class="mascara-formulario"></div>
+
+    <div class="header" alt="head-logo">
+        <img src="img/logo-header.png">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a
+            href="https://api.whatsapp.com/send?phone=5511123456789&text=Oi,%20preciso%20da%20ajuda%20dos%20irm%C3%A3os%20Mario!">Fale
+            Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo do mario bros" class="logo-mario">
+            <p class="paragrafo1">
+                🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧
+            </p>
+            <p class="paragrafo2">
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            <button onclick="mostrarForm()" class="botao-entre-em-contato">
+                Entre em contato
+            </button>
+        </div>
+        <div>
+            <img src="./img/mario e luigi.png" alt="mario e luigi" class="imagem-mario-luigi">
+        </div>
+    </div>
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a
+        href="https://api.whatsapp.com/send?phone=5511123456789&text=Oi,%20preciso%20da%20ajuda%20dos%20irm%C3%A3os%20Mario!">
+        <img src="./img/whatsapp.png" alt="link para o whatsapp" class="whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/ptRh_aJt1Ku" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="Nome">
+        <input placeholder="Telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="Mensagem"></textarea>
+        <button type="submit" class="botao-orçamento">PEDIR ORÇAMENTO</button>
+    </form>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
