@@ -199,7 +199,7 @@ textarea {
     cursor: pointer;
 }
 
-@media(max-width:1000px) {
+@media (max-width:800px) {
     .paragrafo1 {
         display: none;
     }
@@ -236,4 +236,7 @@ textarea {
         display: none;
     }
 
+    .formulario-fale-conosco{
+        margin: -60px;
+    }
 }
